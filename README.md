@@ -14,6 +14,8 @@ This is a simple Code Quiz web application. The Code Quiz allows users to test t
 8. Your final score will be displayed, showing how much time you have left.
 9. You can choose to play the quiz again by clicking the "Start Quiz" button.
 
+Website at: https://leeamick.github.io/code-quiz/
+
 ## Credits
 Quiz was created as part of the Columbia Coding Bootcamp
 ## License
