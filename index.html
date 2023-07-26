@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- The container to hold the entire quiz content -->
+  <div class="container">
+    <!-- Header section -->
+    <header>
+      <h1>Code Quiz</h1>
+    </header>
+    <!-- Main quiz content -->
+    <main>
+      <!-- Container to hold the quiz questions and choices -->
+      <div id="quiz-container">
+        <!-- The question will be displayed here -->
+        <div id="question"></div>
+        <!-- The choices will be displayed here -->
+        <div id="choices"></div>
+      </div>
+      <!-- Container to display the result after answering a question -->
+      <div id="result" class="hidden"></div>
+      <!-- Timer display -->
+      <div id="timer">Time Left: <span id="time-left"></span></div>
+    </main>
+    <!-- Start button to begin the quiz -->
+    <footer>
+      <button id="start-btn">Start Quiz</button>
+    </footer>
+  </div>
+  <!-- Link to the JavaScript file that provides quiz functionality -->
+  <script src="script.js"></script>
+</body>
+</html>

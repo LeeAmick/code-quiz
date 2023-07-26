@@ -1,0 +1,80 @@
+/* Styling for the quiz page */
+
+/* Basic styles for the body and container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fbfd;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styles for the header section */
+  header {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: hsl(206, 17%, 28%);
+  }
+  
+  /* Styles for the quiz content container */
+  #quiz-container {
+    display: none;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the result container */
+  #result {
+    display: none;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the question text */
+  #question {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Styles for the choices container */
+  #choices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Styles for the quiz buttons */
+  button {
+    background-color: hsl(200, 99%, 71%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Hover style for the quiz buttons */
+  button:hover {
+    background-color: hsl(140, 100%, 50%);
+  }
+  
+  /* Styling for the timer display */
+  #timer {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Class to hide elements */
+  .hidden {
+    display: none;
+  }
+  
